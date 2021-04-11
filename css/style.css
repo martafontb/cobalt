@@ -89,4 +89,8 @@ p {
 }
 
 
-
+/* @media only screen and (max-width: 768px) {
+    .shuffle img {
+        transform: scale(1);
+    }
+} */
