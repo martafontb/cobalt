@@ -4,8 +4,9 @@ i = 1;
 
 //shapes at random on the page
 function getRandom(min, max) {
-    return Math.random() * (max - min) + min;
-}
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
+
 
 // With all the shapes inside the <div> read into an array, I can loop through each one:
 Array.prototype.forEach.call(preloadedShapes, function(shape) {   
@@ -16,7 +17,9 @@ Array.prototype.forEach.call(preloadedShapes, function(shape) {
         shape.style.top = getRandom(-6,60)+"vh";
         shape.style.bottom = getRandom(-6,60)+"vh";
         shape.classList.add("hide");
-        // setTimeout(()=> {
-        //     shape.classList.add("hide");
-        //         }, 1500 * i)
 })
+
+
+
+
+
