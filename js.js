@@ -19,7 +19,7 @@ preloadedShapes.forEach(function(shape) {
     shape.style.right = getRandom(5,65)+"%";
     shape.style.top = getRandom(6,60)+"vh";
     shape.style.bottom = getRandom(6,60)+"vh";
-    shape.style.transform = "scale(0.6) rotate(" + ( Math.random() * 20 - 50) + "deg)";
+    shape.style.transform = "scale(0.6) rotate(" + ( Math.random() * 20 - 10) + "deg)";
     shape.classList.add("hide");
 })
 
