@@ -75,8 +75,6 @@ p {
 .preload img { 
     width: 33%; 
     opacity: 1; 
-    transform: scale(0.55);
-    transform: rotate( random(-12, 12)deg);
 }
 
 .hide img { 
